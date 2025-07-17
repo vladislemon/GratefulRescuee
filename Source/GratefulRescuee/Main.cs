@@ -15,7 +15,7 @@ namespace GratefulRescuee
     }
 
     // Size of goodwill reward depends on how many times guest was tended by player faction.
-    // However, downing or un-downing cause guest to forget that count.
+    // However, downing or un-downing (only in 1.5) cause guest to forget that count.
     // That's sad, because almost always players tend unconscious guests (at least I do).
     // And then they come to their senses, heal and leave map. No reward for us...
     // So, let's patch code where "forgetting" happens.
